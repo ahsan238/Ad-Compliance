@@ -8,3 +8,7 @@ The repository contains the necessary source files that may be used to find ads 
 `automatedCrawl.js`: contains the code for puppeteer that we use to interact with the browser. The script contains functionality for inserting the modified (you will have to perform the modification yourself) Adblock Plus extension. It further collects screenshots that are later used to manually validate some of the results.
 
 `injector-abp.py`: as stated earlier, the ad detection can be applied in numerous ways. However, for our study, we choose to insert the ad detection code using MITMProxy. As such, the injector-abp.py contains code for setting up an injection script that is served by an active Mitmproxy server.
+
+### How to modify the exception list for the extension
+All extensions are locally present in the following directory.
+/home/azafar2/AdCompliance/extensions/adblockchrome-5.22.0-mv3-modified/data/rules/abp
